@@ -166,6 +166,10 @@ input:checked + .accordion__label .accordion__header .accordion__title {
         display: block;
     }
     
+    .accordion__item:hover .accordion__label .accordion__body {
+        max-height: 30rem;
+    }
+
     .accordion:hover .accordion__item .accordion__label .accordion__header .accordion__title {
         color: black;
     }
